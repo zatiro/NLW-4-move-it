@@ -1,7 +1,6 @@
 import '../styles/global.css'
 
 import { ChallengesProvider } from '../contexts/ChallengesContext'
-import { useState } from 'react';
 
 // Esse arquivo é recalculado toda vez quando o usuário mudar de página
 // Ele contém todos os componentes que estão presentes em toda a aplicação
