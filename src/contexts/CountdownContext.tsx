@@ -35,7 +35,8 @@ export function CountdownProvider( { children }: CountdownProviderProps) {
   function resetCountdown() {
     setIsActive(false);
     clearTimeout(countdownTimeout);
-    setTime(0.1 * 60)
+    setTime(0.1 * 60);
+    setHasFinished(false);
   }
 
   // Toda vez que o valor de isActive ou time mudar, a função é executada
